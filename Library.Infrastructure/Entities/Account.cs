@@ -11,5 +11,5 @@ public class Account : BaseEntity
     public bool IsAccountActive { get; set; }
 
     public int BookId { get; set; }
-    public Book? Book { get; set; }      
+    public Account? Accounts { get; set; }      
 }
