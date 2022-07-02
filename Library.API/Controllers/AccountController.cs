@@ -1,21 +1,42 @@
+using Library.API.Services;
+using Library.Core.DTO;
+using Library.Infrastructure.Exceptions;
 using Library.Infrastructure.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Library.API.Controllers;
 
 [ApiController]
-[Route("api/[controller")]
+[Route("api/[controller]")]
 public class AccountController : ControllerBase
 {
-    // private readonly IAccountRepository _accountRepository;
-    //
-    // public AccountController(IAccountRepository _accountRepository)
-    // {
-    //     _accountRepository = AccountRepository;
-    // }
-    //
-    // [HttpPost("Create")]
-    // public async Task<IActionResult> CreateNewLandLordAccount([FromBody] LandLordCreationRequestDto dto)
+    private readonly IAccountService _accountService;
+    
+    public AccountController(IAccountService accountService)
+    {
+        _accountService = accountService;
+    }
+
+    [HttpGet("GetAll")]
+    public async Task<IActionResult> GetAll()
+    {
+        return Ok(await _accountService.GetAllAccountBasinInfosAsync());
+    }
+
+    [HttpPost("Create")]
+    public async Task<IActionResult> CreateNewAccount([FromBody] AccountCreationRequestDto dto)
+    {
+        try
+        {
+            await _accountService.AddNewAccount(dto);
+        }
+        catch (EntityNotFoundException)
+        {
+            return BadRequest();
+        }
+
+        return NoContent();
+    }
     // {
     //     await _landLordService.CreateNewLandLordAccountAsync(dto);
     //     return NoContent();

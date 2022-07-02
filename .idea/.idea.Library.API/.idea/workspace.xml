@@ -6,12 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35c45050-4072-4817-b2d9-dca2fcb91628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Library.API/Services/AccountService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.API/Services/IAccountService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Core/DTO/AccountBasicInformationResponseDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Core/DTO/AccountCreationRequestDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Library.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.API/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.API/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.API/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.API/Services/AccountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.API/Services/AccountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.API/Services/IAccountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.API/Services/IAccountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Core/DTO/AccountBasicInformationResponseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Core/DTO/AccountBasicInformationResponseDto.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <updated>1656744856893</updated>
       <workItem from="1656744885673" duration="1398000" />
       <workItem from="1656751021074" duration="11033000" />
-      <workItem from="1656773501440" duration="1594000" />
+      <workItem from="1656773501440" duration="6689000" />
     </task>
     <servers />
   </component>
