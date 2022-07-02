@@ -1,11 +1,25 @@
+using Library.Infrastructure.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Library.API.Controllers;
 
 [ApiController]
-[Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+[Route("api/[controller")]
+public class AccountController : ControllerBase
 {
+    // private readonly IAccountRepository _accountRepository;
+    //
+    // public AccountController(IAccountRepository _accountRepository)
+    // {
+    //     _accountRepository = AccountRepository;
+    // }
+    //
+    // [HttpPost("Create")]
+    // public async Task<IActionResult> CreateNewLandLordAccount([FromBody] LandLordCreationRequestDto dto)
+    // {
+    //     await _landLordService.CreateNewLandLordAccountAsync(dto);
+    //     return NoContent();
+    // }
     // private static readonly string[] Summaries = new[]
     // {
     //     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"

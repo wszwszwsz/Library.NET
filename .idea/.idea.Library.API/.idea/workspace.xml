@@ -6,15 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35c45050-4072-4817-b2d9-dca2fcb91628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Exceptions/EntityNotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Repository/AccountRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Repository/BookRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Repository/IAccountRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Repository/IBookRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Repository/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.API/Services/AccountService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.API/Services/IAccountService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Core/DTO/AccountBasicInformationResponseDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Library.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.Infrastructure/Entities/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Infrastructure/Entities/Account.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.Infrastructure/Entities/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Infrastructure/Entities/Book.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.API/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.API/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.API/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1656744856893</updated>
       <workItem from="1656744885673" duration="1398000" />
-      <workItem from="1656751021074" duration="10377000" />
+      <workItem from="1656751021074" duration="11033000" />
+      <workItem from="1656773501440" duration="1594000" />
     </task>
     <servers />
   </component>
