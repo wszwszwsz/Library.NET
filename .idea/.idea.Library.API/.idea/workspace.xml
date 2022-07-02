@@ -5,19 +5,7 @@
     <projectFile profileName="IIS Express">Library.API/Library.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35c45050-4072-4817-b2d9-dca2fcb91628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Library.API/dbo.Library.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Core/Entities/Account.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Core/Entities/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Core/Entities/Book.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Context/MainContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Migrations/20220702105451_initial.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Migrations/20220702105451_initial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Infrastructure/Migrations/MainContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Library.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.API/Library.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Library.API/Library.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.Infrastructure/Library.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Infrastructure/Library.Infrastructure.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="35c45050-4072-4817-b2d9-dca2fcb91628" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +30,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -88,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656744856893</updated>
       <workItem from="1656744885673" duration="1398000" />
-      <workItem from="1656751021074" duration="6476000" />
+      <workItem from="1656751021074" duration="6904000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,5 @@
-﻿using Library.Core.Entities;
+﻿using Library.Infrastructure.Entities;
+using Library.Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Library.Infrastructure.Context;
